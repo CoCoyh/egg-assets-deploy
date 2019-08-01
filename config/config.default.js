@@ -17,6 +17,7 @@ module.exports = appInfo => {
 
   config.assets = {
     publicPath: '/public',
+    url: 'http://192.168.2.2', // 部署centos机器地址，示例地址，不可用
     devServer: {
       autoPort: true,
       command: 'umi dev --port={port}',
